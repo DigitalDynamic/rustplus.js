@@ -1,9 +1,9 @@
 "use strict";
 
-const path = require('path');
-const WebSocket = require('ws');
-const protobuf = require("protobufjs");
-const { EventEmitter } = require('events');
+import { EventEmitter } from "events"
+import WebSocket from "ws"
+import path from "path"
+import protobuf from "protobufjs"
 
 class RustPlus extends EventEmitter {
 
@@ -330,4 +330,4 @@ class RustPlus extends EventEmitter {
 
 }
 
-module.exports = RustPlus;
+export default RustPlus
