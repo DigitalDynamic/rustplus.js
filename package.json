@@ -35,7 +35,7 @@
     "chrome-launcher": "^0.15.0",
     "command-line-args": "^5.2.0",
     "command-line-usage": "^6.1.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "protobufjs": "^7.0.0",
     "push-receiver": "^2.1.0",
     "uuid": "^8.1.0",
